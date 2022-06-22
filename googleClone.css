@@ -45,12 +45,14 @@ nav .nav-right-section .menu-icon{
 
 .nav-right-section-desplegable{
     display: none;
+    align-content: space-between;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     position: absolute;
     left:calc(60% - 14px) ;
     top:calc(10% - 27px);
-    width: 100px;
+    width: auto;
     height: 150px;
     background-color: #e4e4e4;
     border-radius: 10px;;
@@ -152,7 +154,7 @@ main .main-buttons{
 }
 
 main .main-buttons button{
-    height: 36px;
+    height: auto;
     width: 161px;
     background-color: #f2f2f2;
     border: 0;
